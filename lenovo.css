@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo-img{
+    position: relative;
+    height: 4vh;
+}
+.header{
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+}
+.header-left {
+    position: relative;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.header-right{
+    position: relative;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+
+.main-body{
+    background: url(images/lenovo-main.jpeg);
+    height: 75vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.header-left-list{
+    list-style: none;
+    
+}
+.header-left-list li{
+    display: inline;
+    font-weight: bold;
+    padding-left: 1vh;
+}
+.header-right-list{
+    list-style: none;
+    
+}
+.header-right-list li{
+    display: inline;
+    font-weight: bold;
+    padding-left: 1vh;
+}
+
+.search-img{
+    width: 1rem;
+    height: 1rem;
+    padding-left: 1vh;
+}
+
+.body-right-1{
+    background-color: rgba(15, 15, 15, 0.5);
+    width: 24vw;
+    height: 37.35vh;
+    border: 1px solid #3f3b3b;
+    position: relative;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.body-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 75vh;
+    
+}
+.body-left{
+    width: 52vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+
+.grid-1:hover{
+    background: url(images/grid-1.jpg);
+    opacity: 1;
+    
+}
+.grid-2:hover{
+    background: url(images/grid-2.jpg);
+    opacity: 1;
+}
+.grid-3:hover{
+    background: url(images/grid-3.jpg);
+    opacity: 1;
+}
+.grid-4:hover{
+    background: url(images/grid-4.jpg);
+    opacity: 1;
+}
+
+.body-right-1-text{
+    width: 20vw;
+    height: 10vh;
+    color: aliceblue;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 130px;
+    
+}
+.body-right-2-text{
+    width: 20vw;
+    height: 10vh;
+    color: aliceblue;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.body-left-title{
+    color: aliceblue;
+    font-size: 70px;
+    padding-left: 5vw;
+}
+.body-left-content{
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 5vw;
+    line-height: 35px;
+}
+.body-left-button{
+    width: 8vw;
+    height: 5vh;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    border-radius: 8px;
+    background-color: rgb(82, 220, 238);
+    font-size: 16px;
+    color: aliceblue;
+}
+.body-left-button:hover{
+    background-color: aliceblue;
+    color: rgb(82, 220, 238);
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #bfbfbf;
+}
