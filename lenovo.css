@@ -2,6 +2,9 @@
     margin: 0%;
     padding: 0%;
 }
+p{
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+}
 .logo-img{
     position: relative;
     height: 4vh;
@@ -52,6 +55,7 @@
     display: inline;
     font-weight: bold;
     padding-left: 1vh;
+    font-family: "Lato",Helvetica,Arial,sans-serif;
     
 }
 .header-right-list{
